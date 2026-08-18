@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main () {
+    float age = 12.00;
+    printf("my age %f,but my gaze is 15",age);
+    return 0;
+}
+
+output:- my age is 12.000000,but my gaze is 15
