@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int age ;
+    printf("enter the number");
+    scanf("vachina number enti...%d,&age");
+    return 0;
+}
+
+output:- Enter the number 10
