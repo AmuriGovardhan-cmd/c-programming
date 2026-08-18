@@ -1,9 +1,18 @@
 #include <stdio.h>
-int main() {
-    int age ;
-    printf("enter the number");
-    scanf("vachina number enti...%d,&age");
+int main()
+{
+    int age;
+    int num1 =10;
+    int num2 =10;
+    printf("enter the 1st num\n");
+    scanf("%d&num1");
+    printf("enter the 2nd num\n");
+    scanf("%d&num2");
+  //  printf("vachina number enti...%d",&num1);
+    printf("first 2 nums is %d",num1*num2);
     return 0;
 }
 
-output:- Enter the number 10
+output:-enter the 1st num 
+        enter the 2nd num
+        first 2 nums is 100
