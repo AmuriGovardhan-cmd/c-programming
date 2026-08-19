@@ -1,0 +1,46 @@
+#include <stdio.h>
+int main(){
+    int ans =0;
+    for (int i = 1; i<=10;i++) {
+    if (i==7){
+        break;
+    }
+        printf("%d\n",i);
+    }
+    return 0;
+}
+
+output 
+1
+2
+3
+4
+5
+6
+
+________________________________________________________________
+
+{2}
+
+#include <stdio.h>
+int main(){
+    int ans =0;
+    for (int i = 1; i<=10;i++) {
+    if (i==8){
+        continue;
+    }
+        printf("%d\n",i);
+    }
+    return 0;
+}
+
+output 
+1
+2
+3
+4
+5
+6
+7
+9
+10
